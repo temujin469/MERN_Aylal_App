@@ -5,6 +5,8 @@ const dotenv = require('dotenv')
 const pinRoute = require('./route/pins')
 const userRoute = require('./route/users')
 const cors = require('cors')
+const path = require('path')
+
 
 dotenv.config();
 app.use(express.json({limit: '50mb'}));
