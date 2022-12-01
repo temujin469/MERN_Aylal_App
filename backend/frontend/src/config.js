@@ -1,5 +1,5 @@
-import axios from 'axios'
+import axios from "axios";
 
 export const AxiosInstance = axios.create({
-    baseURL :"https://aylal-website.herokuapp.com/api/"
-})
+  baseURL: process.env.BASE_URL,
+});
